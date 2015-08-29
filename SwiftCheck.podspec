@@ -30,6 +30,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = "8.0"
     s.framework = "XCTest"
     s.source   = { :git => "https://github.com/typelift/SwiftCheck.git", :tag => "v#{s.version}", :submodules => true }
+    s.source   = { :git => "https://github.com/typelift/Operadics.git" }
     s.source_files = "SwiftCheck/*.swift", "**/Operadics/*.swift"
 end
 
